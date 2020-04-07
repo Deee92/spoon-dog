@@ -1,4 +1,4 @@
-mvn clean install
+`mvn clean install`
 
-java -cp target/<name-of-jar> app.App
+`java -cp target/<name-of-jar> app.App`
 
