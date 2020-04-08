@@ -26,6 +26,11 @@ public class Dog extends Animal {
     return this.name;
   }
 
+  // a setter (impure) method
+  public void setName(String name) {
+    this.name = name;
+  }
+
   @Override
   // a public pure method, defines how a dog "speaks"
   public String speak() {
